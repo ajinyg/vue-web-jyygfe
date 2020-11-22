@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-	  <div>test01000</div>
+	  <div>消防安全111</div>
 	<!-- <transition>
 		<keep-alive>
 		  <router-view v-if="this.$router.currentRoute.meta.keepAlive" />
