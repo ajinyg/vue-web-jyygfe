@@ -12,13 +12,14 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: process.env.VUE_APP_DOMAIN,//请求域名
+        target: 'http://10.0.8.10',//请求域名
         //secure: false, // 如果是https接口，需要配置这个参数
         changeOrigin: true,//如果是跨域访问，需要配置这个参数
         pathRewrite: {
           '^/api': ''
         }
       }
-    }
+    },
+    host:'81.70.200.109'
   },
 }
