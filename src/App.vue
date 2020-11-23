@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-	  <img src="http://img08.oneniceapp.com/upload/resource/98a0fdaf72f739262597e3ed666a6a11.png" alt="">
-	<!-- <transition>
+	  <!-- <img src="http://img08.oneniceapp.com/upload/resource/98a0fdaf72f739262597e3ed666a6a11.png" alt=""> -->
+	<transition>
 		<keep-alive>
 		  <router-view v-if="this.$router.currentRoute.meta.keepAlive" />
 		</keep-alive>
 	</transition>
 	<transition>
 		<router-view v-if="!this.$router.currentRoute.meta.keepAlive" />
-	</transition> -->
+	</transition>
   </div>
 </template>
 <script>
